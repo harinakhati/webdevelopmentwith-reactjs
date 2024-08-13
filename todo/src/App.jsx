@@ -22,7 +22,12 @@ function App() {
       <br />
       <Link to="/about">About</Link>
       </nav>
-      <h1>This is my react app</h1>
+      <h1>This is my react app.</h1>
+      <Routes>
+        <Route path="/" exact Component={Home}></Route>
+        <Route path="/about" Component={About}></Route>
+        <Route path="/examples" Component={Demo}></Route>
+      </Routes>
       </BrowserRouter>
       </div>
     //  <div>
