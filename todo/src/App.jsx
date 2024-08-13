@@ -9,17 +9,15 @@ import Demo from './component/Demo';
 import Home from './component/Home';
 import About from './component/About';
 import{BrowserRouter, Route, Link, Routes}from "react-router-dom";
-import './App.css'
+import css from'./App.module.css'
 
 function App() {
   return (
     <div>
     <BrowserRouter>
-    <nav>
+    <nav className={css.menu}>
       <Link to="/">Home</Link>
-      <br />
       <Link style={{color: "red"}}to="/examples">Examples</Link>
-      <br />
       <Link to="/about">About</Link>
       </nav>
       <h1 style={{color: "Brown" }}>This is my react app.</h1>
