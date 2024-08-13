@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 
 import MessageBar from "./component/message" 
 import State from "./component/State";
+import TextBox from './component/TextBox';
 
 import './App.css'
 function App() {
@@ -13,6 +14,7 @@ function App() {
      <MessageBar message="this is a message from app.js"/>
      <MessageBar message="again from app.js"/>
      <State />
+    <TextBox />
      </div>
   );
 }
