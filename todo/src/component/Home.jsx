@@ -1,4 +1,5 @@
 import "./Home.modules.css"
+// import css from "./Home.modules.css"
 const Home=()=>{
     return( 
         <div>
