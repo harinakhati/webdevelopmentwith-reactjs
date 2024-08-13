@@ -1,0 +1,13 @@
+/*styling for element id*/
+#header{
+    color:rgb(112, 219, 219); 
+    background-color:rgb(141, 141, 116);text-align: center
+}
+/*styling for element with class*/
+.body{
+    background-color:red;
+     color:yellow;text-align: center
+}
+body{
+    background-color:teal;
+}
