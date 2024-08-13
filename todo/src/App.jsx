@@ -18,11 +18,11 @@ function App() {
     <nav>
       <Link to="/">Home</Link>
       <br />
-      <Link to="/examples">Examples</Link>
+      <Link style={{color: "red"}}to="/examples">Examples</Link>
       <br />
       <Link to="/about">About</Link>
       </nav>
-      <h1>This is my react app.</h1>
+      <h1 style={{color: "Brown" }}>This is my react app.</h1>
       <Routes>
         <Route path="/" exact Component={Home}></Route>
         <Route path="/about" Component={About}></Route>
