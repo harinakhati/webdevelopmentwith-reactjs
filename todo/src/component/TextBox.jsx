@@ -4,7 +4,7 @@ const TextBox=()=>{
     }
     return(
         <div>
-            <p onClick={onPClick}>this is me.</p>
+            <p onClick={onPClick}>This is me.</p>
         </div>
     );
 }
