@@ -20,7 +20,9 @@ function App() {
       <Link style={{color: "red"}}to="/examples">Examples</Link>
       <Link to="/about">About</Link>
       </nav>
-      <h1 style={{color: "Brown" }}>This is my react app.</h1>
+      <h1 style={{color: "Brown" }}>This is my react app. <br />
+      {2>5?<h1>More than 5</h1> :  <h2>it is less than 5</h2>}
+       </h1>
       <Routes>
         <Route path="/" exact Component={Home}></Route>
         <Route path="/about" Component={About}></Route>
