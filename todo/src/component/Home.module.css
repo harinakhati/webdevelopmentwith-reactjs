@@ -1,7 +1,33 @@
 /*styling the Home Page*/
 .title{
-    color:rgb(45, 56, 56);
+    color:rgb(24, 26, 26);
 }
 .text{
-    color: rgb(41, 41, 173);
+    color: rgb(44, 44, 194);
 }
+
+nav {
+    background-color: aqua;
+    padding: 5px; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    display: flex; 
+    justify-content: left; 
+    gap: 20px; 
+    z-index: 5; 
+    text-color:blue;
+  }
+  
+  
+  nav a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+    display: block; 
+  }
+  
+  nav a:hover {
+    background-color: rgb(160, 118, 118); 
+  }

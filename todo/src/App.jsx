@@ -2,9 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 
-//import MessageBar from "./component/message" 
-//import State from "./component/State";
-//import TextBox from './component/TextBox';
+import MessageBar from "./component/message" 
+import State from "./component/State";
+import TextBox from './component/TextBox';
 import Demo from './component/Demo';
 import Home from './component/Home';
 import About from './component/About';
@@ -16,12 +16,11 @@ function App() {
     <div>
     <BrowserRouter>
     <nav className={css.menu}>
-      <Link to="/">Home</Link>
-      <Link style={{color: "red"}}to="/examples">Examples</Link>
-      <Link to="/about">About</Link>
+      <Link  style={{color:"Black"}}to="/">Home</Link>
+      <Link style={{color: "Black"}}to="/examples">Examples</Link>
+      <Link style={{color:"Black"}} to="/about">About</Link>
       </nav>
       <h1 style={{color: "Brown" }}>This is my react app. <br />
-      {2>5?<h1>More than 5</h1> :  <h2>it is less than 5</h2>}
        </h1>
       <Routes>
         <Route path="/" exact Component={Home}></Route>
@@ -36,5 +35,4 @@ function App() {
     //  </div>
   );
 }
-
 export default App;

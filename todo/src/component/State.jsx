@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-function State(){
+const State=()=>{
     const[count, setCount] = useState(0);
     const[name, setName] =useState(0);
     return (
@@ -20,4 +20,5 @@ function State(){
         </div>
     );
 }
+
 export default State;
